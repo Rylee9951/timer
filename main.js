@@ -17,15 +17,12 @@ setInterval (function(){
   	seconds = "0" + seconds;
   }
   var time = hours + ":" + minutes + ":" + seconds
-  console.log(time)
-      
-      
-     
-      
-      
+        
       
   $(".clock").html(time)
 },1000)
+
+
 
 setInterval (function(){
   var date = new Date()
@@ -45,13 +42,19 @@ setInterval (function(){
   if(seconds < 10){
     seconds = "0" + seconds;
   }
-  var hexs = "#" + hours + minutes + seconds
-  console.log(hexs)
+  var color = "#" + hours + minutes + seconds
+  
+   
+
+  
+ 
+  
+  
+  
+  
+    
       
+    
       
-     
-      
-      
-      
-  $(".hex").html(hexs)
+  $(".hex").html(color)
 },1000)

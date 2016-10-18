@@ -14,10 +14,9 @@
 .hex{
 	width: 80%;
 	height: 450px;
-	background-color: black;
 	font-size: 200px;
 	border:5px solid red;
-	color: white;
+	color: black;
 	text-align: center;
 	line-height: 450px;
 	font-family: sans-serif;
