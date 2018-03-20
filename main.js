@@ -56,5 +56,5 @@ setInterval (function(){
       
     
       
-  $(".hex").html(color)
+  $(".hex").html(color).css("background-color", `${color}`)
 },1000)
